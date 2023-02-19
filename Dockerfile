@@ -14,6 +14,8 @@ RUN ls
 
 # 添加 sentinel
 ADD sentinel-dashboard-1.8.6.jar .
+# 重命名
+RUN mv sentinel-dashboard-1.8.6.jar sentinel-dashboard.jar
 
 # 查看文件
 RUN ls
