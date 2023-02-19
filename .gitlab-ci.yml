@@ -9,10 +9,10 @@ docker-build:
   script:
     # 下载 sentinel
     - wget https://github.com/alibaba/Sentinel/releases/download/1.8.6/sentinel-dashboard-1.8.6.jar
-    - docker build -t "$DOCKER_USERNAME"/sentinel:v1.8.6 .
+    - docker build -t "$DOCKER_USERNAME"/sentinel:v1.8.6-dragonwell8 .
     - docker images
     - docker login -u "$DOCKER_USERNAME" -p "$DOCKER_PASSWORD"
-    - docker push "$DOCKER_USERNAME"/sentinel:v1.8.6
+    - docker push "$DOCKER_USERNAME"/sentinel:v1.8.6-dragonwell8
   # https://docs.gitlab.com/ee/ci/yaml/index.html#rules
 #  rules:
 #    - if: $CI_COMMIT_TAG

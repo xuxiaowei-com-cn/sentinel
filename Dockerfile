@@ -1,7 +1,7 @@
 # 第一阶段：编译 git 源码
 
 # 选择运行时基础镜像
-FROM openjdk:8u342-jre
+FROM xuxiaoweicomcn/dragonwell8:8.13.14-Standard
 
 # 维护人员
 MAINTAINER 徐晓伟 xuxiaowei@xuxiaowei.com.cn
