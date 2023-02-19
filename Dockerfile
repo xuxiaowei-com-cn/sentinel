@@ -22,4 +22,4 @@ RUN ls
 
 EXPOSE 8080
 
-CMD java -jar sentinel-dashboard-1.8.6.jar
+CMD java -jar sentinel-dashboard.jar
