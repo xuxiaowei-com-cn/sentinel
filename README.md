@@ -101,6 +101,10 @@
   </a>
 </div>
 
+## [启动配置项](https://sentinelguard.io/zh-cn/docs/general-configuration.html)
+
+- jar 包：`/home/sentinel-dashboard.jar`
+
 ## 批量添加远端仓库地址
 
 <details>
